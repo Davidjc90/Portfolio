@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-PROJECTS">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="PROJECTS" clip-path="url(#clip-PROJECTS)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <path id="Trazado_1" data-name="Trazado 1" d="M0,0H1920V1080H0Z" fill="#1a1a1a"/>
+    <rect id="GRID1" width="5" height="1080" transform="translate(132)"/>
+    <rect id="GRID2" width="5" height="1080" transform="translate(530)"/>
+    <rect id="GRID3" width="5" height="1080" transform="translate(952)"/>
+    <rect id="GRID4" width="5" height="1080" transform="translate(1366)"/>
+    <rect id="GRID5" width="5" height="1080" transform="translate(1780)"/>
+    <g id="Rectángulo_1" data-name="Rectángulo 1" transform="translate(1676 428)" fill="none" stroke="#00bcd4" stroke-width="20">
+      <rect width="80" height="80" rx="24" stroke="none"/>
+      <rect x="10" y="10" width="60" height="60" rx="14" fill="none"/>
+    </g>
+    <g id="Rectángulo_2" data-name="Rectángulo 2" transform="translate(174 207)" fill="none" stroke="#00bcd4" stroke-width="20">
+      <rect width="80" height="80" rx="24" stroke="none"/>
+      <rect x="10" y="10" width="60" height="60" rx="14" fill="none"/>
+    </g>
+    <g id="Rectángulo_3" data-name="Rectángulo 3" transform="translate(641 864)" fill="none" stroke="#00bcd4" stroke-width="10">
+      <rect width="40" height="40" rx="14" stroke="none"/>
+      <rect x="5" y="5" width="30" height="30" rx="9" fill="none"/>
+    </g>
+  </g>
+</svg>
