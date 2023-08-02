@@ -15,17 +15,11 @@ html,body{
 
 
 body {
-  /*background-color: #2d3436;
-  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);*/
-  background-image: url(../image/PROJECTS.svg);
-  background-size: cover;
-  background-position: center;
+  /*background: linear-gradient(45deg,#807b7b,#5b5a5b,#3b3b3b);*/
+  /*background: radial-gradient(circle at 24.1% 68.8%, rgb(22, 22, 22) 0%, rgb(0, 0, 0) 99.4%);*/
+ /*background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);*/
+  background: repeating-linear-gradient(-60deg, #000, #000 6px, #141414 6px, #141414 7px);
   font-size: 16px;
-  background-attachment: fixed;
-	/*background-image: url(../image/bg.svg);*/
-  /*background-size: cover;
-  background-position: center;
-  background-attachment: fixed;*/
 
 }
 
@@ -109,7 +103,9 @@ Navbar
 First Area
 ==========
 */
-
+.first-area{
+  height: 100vh;
+}
 
 
 
@@ -123,11 +119,12 @@ First Area
     transform-origin: left top;
     position: absolute;
     white-space: nowrap;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 28px;
     font-family: 'Inconsolata', monospace;
    font-weight: 300;
-    color: #fff;
+    color: #e9e5e5;
+        margin-top: 65px;
     
 }
 
@@ -163,8 +160,8 @@ p#intro-two {
     animation: text_move_right 2s ease-in;
 }
 .right-text h1 {
-    font-size: 150px;
-    line-height: 150px;
+    font-size: 125px;
+    line-height: 125px;
     text-align: left;
     color: #fff;
     font-family: 'Product_Sans_Regular', sans-serif;
@@ -800,18 +797,20 @@ $bp-medium:56.25em; //900px/16 =56.25em;
 $bp-small:37.5em; //600px/16 =37.5em;
 $bp-smallest:31.25em;//500px/16 = 31.25em;
 $bp-smallest3:25.93em; //400px/16 = 25em;
+$bp-smallest3:25.87em; //416px/16 = 25.87em;
 $bp-smallest2:22.5em;//360px /16 =25em;
+1920px/16 = 120em; laptop
 
 
 */
  /*400px*/
-@media only screen and (max-width:25.93em){
+@media only screen and (max-width:25.87em){
    #box1{
     display: none;
    }
 
   .left-text {
-    padding-top: 20%;
+    padding-top: 5%;
     animation: text_move_left 2s ease-in-out;
    }
 
@@ -819,15 +818,17 @@ $bp-smallest2:22.5em;//360px /16 =25em;
     transform: rotate(0deg);
     font-size: 18px;
     line-height: 18px;
+    margin: 15px;
    }
 
    .right-text h1 {
-    font-size: 130px;
-    line-height: 130px;
+    font-size: 100px;
+    line-height: 100px;
     text-align: left;
     color: #fff;
     font-family: 'Product_Sans_Regular', sans-serif;
     font-weight: 700;
+    padding-top: 10%;
   }
 
 
@@ -862,6 +863,9 @@ $bp-smallest2:22.5em;//360px /16 =25em;
     padding-top: 0px;
   }
 
+  .portfolio_heading {
+    padding: 10px;
+}
   .portfolio_heading h2 {
     font-size: 100px;
     line-height: 100px;  
@@ -884,6 +888,7 @@ $bp-smallest2:22.5em;//360px /16 =25em;
     font-size: 100px;
     line-height: 150px;
     text-align: left;
+    WORD-BREAK: break-word;
     color: #fff;
     font-family: 'Product_Sans_Regular', sans-serif;
     font-weight: 700;
@@ -891,33 +896,33 @@ $bp-smallest2:22.5em;//360px /16 =25em;
 
    .contact {
     padding-bottom: 125px;
-    margin-top: 335px;
+    margin-top: 220px;
   }
 
   img.card-img-top {
-    height: 60vw;
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrap-social {
+  padding-top: 45px;
+  padding-bottom: 5px;
 }
 
 
 }
 
-/*360px*/
-@media screen and (max-width: 22.5em){
-  .right-text h1 {
-    font-size: 115px;
-    line-height: 115px;}
 
-    .contact-header h2 {
-    font-size: 90px;
-    line-height: 130px;
-    }
+/*to do peding the media queries*/
+/*1920px*/
+@media screen and (width: 120em){
+  .container {
+    max-width: 1920px;
+}
 
-    img.card-img-top {
-    height: 60vw;
-    object-fit: cover;
-  }
-
+.first-area{
+  margin-top: 100px;
+}
 
 }
 
