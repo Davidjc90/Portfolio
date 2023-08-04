@@ -345,7 +345,7 @@ img.img-fluid.scroll {
 
 .icon-scroll {
   width: 40px;
-  margin-left: -20px;
+  /*margin-left: -20px;*/
   top: 70%;
   /*margin-top: -35px;*/
   margin-top: 20px;
