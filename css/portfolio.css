@@ -169,6 +169,13 @@ p#intro-two {
 
 }
 
+.right-text span{
+  color: #FF5252;
+    padding-left: 5px;
+    font-size: 120px;
+    font-weight: 700;
+}
+
 @keyframes text_move_right{
   0%{
     opacity: 0;
@@ -345,7 +352,7 @@ img.img-fluid.scroll {
 
 .icon-scroll {
   width: 40px;
-  /*margin-left: -20px;*/
+  margin-left: -20px;
   top: 70%;
   /*margin-top: -35px;*/
   margin-top: 20px;
@@ -499,7 +506,7 @@ font-size: 120px;
 
 .dev-skills {
     padding: 40px;
-    background-color: #1F1F1F;
+    background-color: #141414;
     width: 180%;
     margin-left: 20%;
     border-radius: 15px;
@@ -800,9 +807,10 @@ $bp-smallest3:25.93em; //400px/16 = 25em;
 $bp-smallest3:25.87em; //416px/16 = 25.87em;
 $bp-smallest2:22.5em;//360px /16 =25em;
 1920px/16 = 120em; laptop
-
-
 */
+
+
+
  /*400px*/
 @media only screen and (max-width:26.87em){
    #box1{
@@ -810,7 +818,7 @@ $bp-smallest2:22.5em;//360px /16 =25em;
    }
 
   .left-text {
-    padding-top: 5%;
+    padding-top: 10%;
     animation: text_move_left 2s ease-in-out;
    }
 
@@ -822,8 +830,8 @@ $bp-smallest2:22.5em;//360px /16 =25em;
    }
 
    .right-text h1 {
-    font-size: 95px;
-    line-height: 95px;
+    font-size: 100px;
+    line-height: 100px;
     text-align: left;
     color: #fff;
     font-family: 'Product_Sans_Regular', sans-serif;
@@ -885,9 +893,118 @@ $bp-smallest2:22.5em;//360px /16 =25em;
 
 
     .contact-header h2 {
-    font-size: 90px;
-    line-height: 140px;
+    font-size: 100px;
+    line-height: 150px;
     text-align: left;
+    WORD-BREAK: break-word;
+    color: #fff;
+    font-family: 'Product_Sans_Regular', sans-serif;
+    font-weight: 700;
+   }
+
+   .contact {
+    padding-bottom: 125px;
+    margin-top: 220px;
+  }
+
+  img.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrap-social {
+  padding-top: 45px;
+  padding-bottom: 5px;
+}
+
+
+}
+ /*400px*/
+@media only screen and (max-width:26.87em){
+   #box1{
+    display: none;
+   }
+
+  .left-text {
+    padding-top: 10%;
+    animation: text_move_left 2s ease-in-out;
+   }
+
+   .left-text p {
+    transform: rotate(0deg);
+    font-size: 18px;
+    line-height: 18px;
+    margin: 15px;
+   }
+
+   .right-text h1 {
+    font-size: 100px;
+    line-height: 100px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Product_Sans_Regular', sans-serif;
+    font-weight: 700;
+    padding-top: 10%;
+  }
+
+
+  .About-me {
+    padding-top: 55px;
+  }
+
+  .about-left h2 {
+    font-size: 100px;
+    line-height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .content-dev {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .dev-skills {
+    padding: 40px;
+    background-color: #1F1F1F;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 15px;
+  }
+
+
+
+  .portfolio {
+    padding-bottom: 55px;
+    padding-top: 0px;
+  }
+
+  .portfolio_heading {
+    padding: 10px;
+}
+  .portfolio_heading h2 {
+    font-size: 100px;
+    line-height: 100px;  
+   }
+
+   .portfolio_description {
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+
+   .portfolio_description p {
+    text-align: justify;
+    padding-top: 30%;
+    margin-left: 0px;
+    padding-top: 5%;
+    }
+
+
+    .contact-header h2 {
+    font-size: 100px;
+    line-height: 150px;
+    text-align: left;
+    WORD-BREAK: break-word;
     color: #fff;
     font-family: 'Product_Sans_Regular', sans-serif;
     font-weight: 700;
@@ -912,6 +1029,10 @@ $bp-smallest2:22.5em;//360px /16 =25em;
 }
 
 
+
+
+
+
 /*to do peding the media queries*/
 /*1920px*/
 @media screen and (width: 120em){
@@ -926,3 +1047,298 @@ $bp-smallest2:22.5em;//360px /16 =25em;
 }
 
 
+
+
+/*360px 23em*/
+@media only screen and (width:23em){
+  #box1{
+   display: none;
+  }
+
+ .left-text {
+   padding-top: 5%;
+   animation: text_move_left 2s ease-in-out;
+  }
+
+  .left-text p {
+   transform: rotate(0deg);
+   font-size: 18px;
+   line-height: 18px;
+   margin: 15px;
+  }
+
+  .right-text h1 {
+   font-size: 80px;
+   line-height: 80px;
+   text-align: left;
+   color: #fff;
+   font-family: 'Product_Sans_Regular', sans-serif;
+   font-weight: 700;
+   padding-top: 10%;
+ }
+
+
+ .About-me {
+   padding-top: 55px;
+ }
+
+ .about-left h2 {
+   font-size: 100px;
+   line-height: 100px;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+
+ .content-dev {
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+
+ .dev-skills {
+   padding: 40px;
+   background-color: #1F1F1F;
+   width: 100%;
+   margin-left: 0;
+   border-radius: 15px;
+ }
+
+
+
+ .portfolio {
+   padding-bottom: 55px;
+   padding-top: 0px;
+ }
+
+ .portfolio_heading {
+   padding: 10px;
+}
+ .portfolio_heading h2 {
+   font-size: 100px;
+   line-height: 100px;  
+  }
+
+  .portfolio_description {
+   padding-left: 15px;
+   padding-right: 15px;
+  }
+
+  .portfolio_description p {
+   text-align: justify;
+   padding-top: 30%;
+   margin-left: 0px;
+   padding-top: 5%;
+   }
+
+
+   .contact-header h2 {
+   font-size: 100px;
+   line-height: 150px;
+   text-align: left;
+   WORD-BREAK: break-word;
+   color: #fff;
+   font-family: 'Product_Sans_Regular', sans-serif;
+   font-weight: 700;
+  }
+
+  .contact {
+   padding-bottom: 125px;
+   margin-top: 220px;
+ }
+
+ img.card-img-top {
+   max-width: 100%;
+   height: auto;
+}
+
+.wrap-social {
+ padding-top: 45px;
+ padding-bottom: 5px;
+}
+
+
+}
+
+/*tablet 820px*/
+@media only screen and (width:51.25em){
+  .left-text {
+    padding-top: 30%;
+    animation: text_move_left 2s ease-in-out;
+  }
+
+  .left-text p {
+    transform: rotate(0deg);
+    font-size: 18px;
+    line-height: 18px;
+    margin: 15px;
+   }
+
+
+   
+   .right-text h1{
+    font-size: 145px;
+    line-height: 160px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Product_Sans_Regular', sans-serif;
+    font-weight: 700;
+   }
+
+   .dev-skills{
+    display: none;
+   }
+
+   .portfolio_description p{
+    padding-top: 2%;
+   }
+
+}
+/*tablet 768px*/
+@media only screen and (width:48em){
+  .left-text {
+    padding-top: 30%;
+    animation: text_move_left 2s ease-in-out;
+  }
+
+  .left-text p {
+    transform: rotate(0deg);
+    font-size: 18px;
+    line-height: 18px;
+    margin: 15px;
+   }
+
+
+   
+   .right-text h1{
+    font-size: 145px;
+    line-height: 160px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Product_Sans_Regular', sans-serif;
+    font-weight: 700;
+   }
+
+   .dev-skills{
+    display: none;
+   }
+
+   .portfolio_description p{
+    padding-top: 2%;
+   }
+
+}
+/*tablet 540px*/
+@media only screen and (width:33.75em){
+  .left-text {
+    padding-top: 5%;
+    animation: text_move_left 2s ease-in-out;
+  }
+
+  .left-text p {
+    transform: rotate(0deg);
+    font-size: 18px;
+    line-height: 18px;
+    margin: 15px;
+   }
+
+
+   
+   .right-text h1{
+    font-size: 125px;
+    line-height: 130px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Product_Sans_Regular', sans-serif;
+    font-weight: 700;
+   }
+
+   .dev-skills{
+    display: none;
+   }
+
+   .portfolio_description p{
+    padding-top: 2%;
+   }
+
+}
+
+/*tablet 1024px*/
+@media only screen and (width:64em){
+  .left-text {
+    padding-top: 1%;
+    animation: text_move_left 2s ease-in-out;
+  }
+
+  .left-text p {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    position: absolute;
+    white-space: nowrap;
+    font-size: 25px;
+    line-height: 25px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: #e9e5e5;
+    margin-top: 355px;
+  }
+
+
+   
+   .right-text h1{
+    font-size: 110px;
+    line-height: 110px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Product_Sans_Regular', sans-serif;
+    font-weight: 700;
+   }
+
+   .dev-skills{
+    display: none;
+   }
+
+   .portfolio_description p{
+    padding-top: 2%;
+   }
+
+}
+
+/*1280px*/
+@media only screen and (width:80em){
+  .left-text {
+    padding-top: 1%;
+    animation: text_move_left 2s ease-in-out;
+  }
+
+  .left-text p {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    position: absolute;
+    white-space: nowrap;
+    font-size: 25px;
+    line-height: 25px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    color: #e9e5e5;
+    margin-top: 355px;
+  }
+
+
+   
+   .right-text h1{
+    font-size: 110px;
+    line-height: 110px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Product_Sans_Regular', sans-serif;
+    font-weight: 700;
+   }
+
+   .dev-skills{
+    display: none;
+   }
+
+   .portfolio_description p{
+    padding-top: 2%;
+   }
+
+}
