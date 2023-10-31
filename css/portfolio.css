@@ -348,13 +348,14 @@ img.img-fluid.scroll {
 }
 
 .icon-scroll {
-    width: 40px;
-    margin-left: -10px;
-    top: 70%;
-    margin-top: 25px;
-    box-shadow: inset 0 0 0 1px #cce6ff;
-    border-radius: 25px;
-    height: 70px;
+  width: 40px;
+  margin-left: -20px;
+  top: 70%;
+  /*margin-top: -35px;*/
+  margin-top: 20px;
+  box-shadow: inset 0 0 0 1px #cce6ff;
+  border-radius: 25px;
+  height: 70px;
 }
 
 .icon-scroll:before {
@@ -459,8 +460,8 @@ About Section
     top: 50%;
     left: 0;
     right: 0;
-    -webkit-transform: translateY(20%);
-    transform: translateY(20%);
+    -webkit-transform: translateY(5%);
+    transform: translateY(5%);
 
 }
 
